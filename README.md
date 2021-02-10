@@ -8,7 +8,7 @@ Using make will create the libasm.a binary.
 
 To include the library in your project, clone the repository in your working tree and compile with the following flags :
 
-gcc -L. -lasm file.c
+gcc -L. -lasm main.c
 
 Available functions
 
