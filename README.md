@@ -1,6 +1,6 @@
 # LibASM
 
-Recoding certain functions of the standard C Library, but in x86-64 Intel Assembly.
+Recoding certain functions of the standard C Library, but in x86-64 Intel Assembly. (linux and MAC)
 
 ## How to use it
 
