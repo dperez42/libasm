@@ -4,8 +4,12 @@ Recoding certain functions of the standard C Library, but in x86-64 Intel Assemb
 
 ## How to use it
 
-Using make will create the libasm.a binary.
+Using make will create the libasm.a binary. You need to have nasm.
 
+The makefile compiles the .s (assembler file) with:
+
+nasm -f macho64, if you use a MAC OS 64 bits.
+nasm -f elf, if you use a Linux machine.
 
 To include the library in your project, clone the repository in your working tree and compile with the following flags :
 
