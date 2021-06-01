@@ -6,9 +6,10 @@ Recoding certain functions of the standard C Library, but in x86-64 Intel Assemb
 
 Using make will create the libasm.a binary.
 
+
 To include the library in your project, clone the repository in your working tree and compile with the following flags :
 
-***gcc -L. -lasm main.c***
+***gcc -L. -libasm main.c***
 
 ## Available functions
 
